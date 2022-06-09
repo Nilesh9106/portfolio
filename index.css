@@ -113,6 +113,7 @@ button {
     box-sizing: border-box;
     scroll-behavior: smooth;
     margin: 0;
+    text-transform: capitalize;
 }
 
 
@@ -447,11 +448,43 @@ transition: 0.5s;
 }
 #mail {
     margin: 50px 90px 50px 90px;
+    
+}
+#mail form{
+    /* background-color: var(--bg-dark-main); */
     display: flex;
     flex-direction: column;
 }
-
-#mail a {
+#mail form input,#mail form textarea{
+    padding: 20px;
+    color: var(--text-main);
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    transition: 0.1s;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: var(--bg-dark-main);
+}
+#mail form input:focus,#mail form textarea:focus{
+    outline: 2px solid var(--text-sec);
+    outline-offset: 7px;
+}
+#mail form button{
+    background-color: var(--text-sec);
+    padding: 15px;
+    width: 30%;
+    transition: 0.3s;
+    border-radius: 10px;
+    margin: 10px auto;
+    color: #ffffff;
+    font-size: 20px;
+}
+#mail form button:hover{
+    background-color: rgb(43, 93, 243);
+    transform: scale(1.05);
+}
+/* #mail a {
     background-color: var(--text-main);
     color: var(--bg-dark-main);
     padding: 10px;
@@ -467,7 +500,7 @@ transition: 0.5s;
 
     background-color: var(--text-sec);
     color: var(--text-main);
-}
+} */
 .footer{
     background-color: var(--bg-dark-sec);
     margin: 30px 0px 0px 0px !important;

@@ -13,6 +13,8 @@ window.addEventListener('scroll',()=>{
 
 })
 
+
+
 var fadeElements = document.getElementsByClassName("scrollFade");
 
 function scrollFade() {
@@ -47,6 +49,7 @@ window.addEventListener("resize", scrollFade);
 document.addEventListener("DOMContentLoaded", function () {
   scrollFade();
 });
+
 
 // dark mode 
 
