@@ -469,6 +469,10 @@ transition: 0.5s;
     margin: 10px;
     background-color: var(--bg-dark-main);
 }
+#email{
+    text-transform: none;
+
+}
 #mail form input:focus,#mail form textarea:focus{
     outline: 2px solid var(--text-sec);
     outline-offset: 7px;
