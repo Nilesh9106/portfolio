@@ -413,6 +413,9 @@ transition: 0.5s;
 .font-1{
     font-size: 20px;
 }
+.font-0{
+    font-size: 15px;
+}
 .font-2{
     font-size: 24px; 
 }
