@@ -282,19 +282,19 @@ ul.nav li a {
     transition: all 0.5s ease-in-out;
 }
 
-#about h1,
-#skill h1,
-#mail h1,
-#project h1 {
+#about h2,
+#skill h2,
+#mail h2,
+#project h2 {
     text-align: center;
     margin: 30px 0;
     font-size: 35px;
 }
 
-#about h1 span,
-#skill h1 span,
-#mail h1 span,
-#project h1 span {
+#about h2 span,
+#skill h2 span,
+#mail h2 span,
+#project h2 span {
     display: block;
     background-color: var(--text-sec);
     width: 120px;
